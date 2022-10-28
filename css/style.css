@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS;
+}
+header{
+    background-image: url(../bg.png);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 18px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+ul li.active a{
+    background-color: black;
+    color: #fff;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    overflow: hidden;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.row{
+    display: flex;
+    height: 50%;
+    align-items: center;
+    margin-left: 100px;
+}
+.col{
+    flex-basis: 70%
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+p{
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+}
+.button{
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	margin: 12px;
+	width: 180px;
+	height: 180px;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	transition-duration: 0.6s;
+	position:relative;
+	top: 40px;
+	left: 25px;
+}
+.button1:hover{
+	box-shadow: 0 30px 50px rgba(0,0,0,.5);
+	transform: scale(0.95);
+	cursor: pointer;
+}
+.button2:hover{
+	box-shadow: 0 20px 30px rgba(0,0,0,.5);
+	transform: scale(0.95);
+	cursor: pointer;
+}
+.button3:hover{
+	box-shadow: 0 20px 30px rgba(0,0,0,.5);
+	transform: scale(0.95);
+	cursor: pointer;
+}
+.button4:hover{
+	box-shadow: 0 20px 30px rgba(0,0,0,.5);
+	transform: scale(0.95);
+	cursor: pointer;
+}
+.button1{
+	background: url('1.jpg');
+	background-size: cover;
+}
+.button2{
+	background: url('2.jpg');
+	background-size: cover;
+}
+.button3{
+	background: url('3.jpg');
+	background-size: cover;
+}
+.button4{
+	background: url('4.jpg');
+	background-size: cover;
+}
+h5{
+    color: white
+}
+h2{
+	position: absolute;
+	left:50px;
+	top: 200px;
+	color: white;
+}
+#ayaya{
+	position: absolute;
+	left: 700px;
+	bottom:80px;
+}
+h3{
+	color: black;
+}
+.contactme{
+	position: absolute;
+	left: 100px;
+	top: 300px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 200px;
+	size: 200%;
+	text-decoration: none;
+}
+.contactme2{
+	position: absolute;
+	left: 100px;
+	top: 350px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 200px;
+	size: 200%;
+	text-decoration: none;
+}
+.contactme3{
+	position: absolute;
+	left: 100px;
+	top: 400px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 200px;
+	size: 200%;
+	text-decoration: none;
+}
+.contact :hover{
+	opacity: 70%;
+	transition: 0.5 ease;
+}
